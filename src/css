@@ -1,0 +1,438 @@
+/* 회원가입 툴 박스 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 450px;
+height: 700px;
+left: 470px;
+top: 88px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 294px;
+height: 51px;
+left: 548px;
+top: 136px;
+
+
+
+/* PLAY GROUND */
+
+position: absolute;
+width: 291px;
+height: 40px;
+left: 548px;
+top: 147px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+color: #63B8B0;
+
+
+
+/* Exclude */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 842px;
+top: 136px;
+
+background: #63B8B0;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 842px;
+top: 136px;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 3.16px;
+height: 3.16px;
+left: 840.58px;
+top: 137.42px;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Play Data의 정보를 알고 싶다면 가입하세요 */
+
+position: absolute;
+width: 346px;
+height: 50px;
+left: 522px;
+top: 213px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #989898;
+
+
+
+/* 아이디 확인 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 293px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 비밀번호 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 355px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 비밀번호 확인 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 417px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 이름 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 479px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 닉네임 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 541px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 교육과정 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 603px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+border-radius: 4px;
+
+
+/* 회원가입 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 677px;
+
+background: #FF9B3F;
+border: 1px solid #FF9B3F;
+border-radius: 4px;
+
+
+/* 아이디 */
+
+position: absolute;
+width: 41px;
+height: 15px;
+left: 562px;
+top: 309px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 비밀번호 */
+
+position: absolute;
+width: 54px;
+height: 15px;
+left: 562px;
+top: 371px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 비밀번호 확인 */
+
+position: absolute;
+width: 85px;
+height: 15px;
+left: 562px;
+top: 433px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 이 름 */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 562px;
+top: 495px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 닉네임 */
+
+position: absolute;
+width: 41px;
+height: 15px;
+left: 562px;
+top: 555px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 교육과정 */
+
+position: absolute;
+width: 54px;
+height: 15px;
+left: 562px;
+top: 617px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C7C7C7;
+
+
+
+/* 회 원 가 입 */
+
+position: absolute;
+width: 107px;
+height: 24px;
+left: 642px;
+top: 689px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+
+
+/* 로그인박스 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 450px;
+height: 76px;
+left: 470px;
+top: 836px;
+
+background: #FFFFFF;
+border: 1px solid #989898;
+
+
+/* 계정이 있으신가요? */
+
+position: absolute;
+width: 157px;
+height: 20px;
+left: 586px;
+top: 864px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #989898;
+
+
+
+/* 로그인 */
+
+position: absolute;
+width: 54px;
+height: 20px;
+left: 758px;
+top: 864px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #0066FF;
+
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 48px;
+height: 18px;
+left: 781px;
+top: 306px;
+
+background: #E9E9E9;
+border-radius: 4px;
+
+
+/* 중 복 확 인 */
+
+position: absolute;
+width: 32px;
+height: 7px;
+left: 789px;
+top: 312px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 7px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+color: #989898;
+
