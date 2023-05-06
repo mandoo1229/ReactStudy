@@ -1,13 +1,8 @@
 import React, { useState } from 'react'
 import axios from "axios"
-import TextField from '@mui/material/TextField';
+// import TextField from '@mui/material/TextField';
 import './App.css';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
-// import { useNavigate } from "react-router-dom";
-// import Main from './Main';
+import bootstrap from 'bootstrap'
 
 export default function SignIn() {
     
@@ -39,16 +34,22 @@ export default function SignIn() {
     };
     
   return (
-    <Card sx={{ minWidth: 300, maxWidth: "500vw"}}>
-      <CardHeader title={로그인}/>
-      <CardContent>
-      <Box height = {'50vh'} >
-        <TextField fullWidth type="text" id="outlined-basic" label="로그인" variant="standard" onChange={(e) => setUserid(e.target.value)} />
-        <TextField fullWidth type="password" id="outlined-basic" label="비밀번호" variant="standard" onChange={(e) => setPassword(e.target.value)} />
+
+
+
+    
+    <div className="form-floating">
+      <input type="text" class="form-control" id="floatingInput" lable="로그인" placeholder="text" onChange={(e) => setUserid(e.target.value)}>
+        <label for="floatingInput">아이디를 입력해주세요.</label>
+        </input>
         <button onClick={() => signUpHandler()} > 로그인 </button>
-        {/* variant="standard" 이부분은 아이디를 적을 때 작게 줄어드는 것입니다.*/}
-        </Box>
-        </CardContent>
-    </Card>
+    </div>
   )
 };
+
+
+
+// <TextField fullWidth type="text" id="outlined-basic" label="로그인" variant="standard" onChange={(e) => setUserid(e.target.value)} />
+// <TextField fullWidth type="password" id="outlined-basic" label="비밀번호" variant="standard" onChange={(e) => setPassword(e.target.value)} />
+
+// variant="standard" 이부분은 아이디를 적을 때 작게 줄어드는 것입니다.

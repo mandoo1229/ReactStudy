@@ -436,3 +436,84 @@ letter-spacing: -0.03em;
 
 color: #989898;
 
+
+
+/* 회원가입 버튼 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 43px;
+left: 548px;
+top: 677px;
+
+background: #FF9B3F;
+border: 1px solid #FF9B3F;
+border-radius: 4px;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 294px;
+height: 51px;
+left: 548px;
+top: 136px;
+
+
+
+/* PLAY GROUND */
+
+position: absolute;
+width: 291px;
+height: 40px;
+left: 548px;
+top: 147px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+color: #63B8B0;
+
+
+
+/* Exclude */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 842px;
+top: 136px;
+
+background: #63B8B0;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 842px;
+top: 136px;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 3.16px;
+height: 3.16px;
+left: 840.58px;
+top: 137.42px;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);

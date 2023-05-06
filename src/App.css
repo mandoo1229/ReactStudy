@@ -1,10 +1,30 @@
-.singupform{box-sizing: border-box;
+.play{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height */
+letter-spacing: -0.03em;
 
-position: absolute;
-width: 450px;
-height: 700px;
-left: 470px;
-top: 88px;
+color: #63B8B0;
+}
 
-background: #FFFFFF;
-border: 1px solid #989898;}
+.ground{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    
+    color: #FF9B3F;
+    }
+
+.data{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    color: #989898;
+
+}
