@@ -29,7 +29,7 @@ export default function SignUp() {
     "userid": userId,
     "email": userEmail,
     "name": userName,
-    "nickkname": userNickname,
+    "nickname": userNickname,
     "password": userPassword,
     "curriculum": userCurriculm,
   };
@@ -46,7 +46,6 @@ export default function SignUp() {
         <CssBaseline />
         <Box
           sx={{
-            
             marginTop: 8,
             display: 'flex',
             flexDirection: 'column',
@@ -164,7 +163,7 @@ export default function SignUp() {
 
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="/login" variant="body2">
                   이미 아이디가 있으신가요? 로그인
                 </Link>
               </Grid>
